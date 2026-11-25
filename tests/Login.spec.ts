@@ -7,4 +7,6 @@ test('Login page validation', async ({ page }) => {
   const sign_button = page.locator('button[id="btn1"]');
   await sign_button.click();
 
+  console.log("Working fine");
+
 });
